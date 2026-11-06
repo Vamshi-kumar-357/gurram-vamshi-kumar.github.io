@@ -119,5 +119,5 @@ You can also simply double-click `index.html` in Windows File Explorer to open i
 ## ✏️ Customization Notes
 
 - **LinkedIn & GitHub URLs**: In `index.html` and `resume.html`, update the placeholder `https://linkedin.com` and `https://github.com` links with your specific profile URLs (e.g., `https://linkedin.com/in/vamshikumar`).
-- **Email & Phone**: Currently configured to `vamshikumargurram357@gmail.com` and `+91 7702564211`.
+- **Email**: Direct contact via `vamshikumargurram357@gmail.com`.
 - **ATS Resume PDF**: Open `resume.html` in your browser and click **Print / Save as PDF** to generate an updated PDF anytime.

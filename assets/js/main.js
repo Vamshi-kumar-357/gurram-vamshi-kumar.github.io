@@ -98,7 +98,6 @@ function initTerminal() {
 <div class="border-l-2 border-cyan-400 pl-3 py-1 my-1">
   <div class="text-cyan-300 font-bold">📬 Connect with Gurram Vamshi Kumar:</div>
   <div class="text-xs text-slate-300 mt-1">📧 Email: <a href="mailto:vamshikumargurram357@gmail.com" class="text-cyan-400 underline">vamshikumargurram357@gmail.com</a></div>
-  <div class="text-xs text-slate-300 mt-1">📱 Phone: <span class="text-white font-mono">+91 7702564211</span></div>
   <div class="text-xs text-slate-300 mt-1">📍 Location: Hyderabad, India (Open to Relocation / Remote AI roles)</div>
 </div>`
   };
