@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gurram Vamshi Kumar | AI Engineer & Agentic Systems Architect</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Gurram Vamshi Kumar | AI Engineer & Agentic Systems Architect">
+  <meta name="description" content="AI Engineer with 3.5+ years specializing in Agentic AI, Multimodal LLM pipelines (Google ADK, Gemini, LiveKit, Simli), Real-Time Computer Vision, and GCP MLOps. Published Springer Nature researcher.">
+  <meta name="keywords" content="Gurram Vamshi Kumar, AI Engineer, Machine Learning, Agentic AI, Google ADK, Gemini, LiveKit, Simli, Computer Vision, MLOps, GCP, Vertex AI, Springer Nature, Portfolio">
+  <meta name="author" content="Gurram Vamshi Kumar">
+  
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gurramvamshikumar.github.io/">
+  <meta property="og:title" content="Gurram Vamshi Kumar | AI Engineer & Agentic Systems Architect">
+  <meta property="og:description" content="Production Agentic AI, Real-Time Computer Vision & MLOps. 1s Avatar TTFT Latency • 99.09% Springer Nature Paper • 700K+ Medical SKUs Generalized.">
+  <meta property="og:image" content="assets/images/og-preview.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Gurram Vamshi Kumar | AI Engineer & Agentic Systems Architect">
+  <meta property="twitter:description" content="Production Agentic AI, Real-Time Computer Vision & MLOps. 1s Avatar TTFT Latency • 99.09% Springer Nature Paper.">
+  <meta property="twitter:image" content="assets/images/og-preview.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cyan: '#06b6d4',
+              blue: '#38bdf8',
+              indigo: '#6366f1',
+              purple: '#a855f7',
+              emerald: '#10b981',
+              dark: '#070a12',
+              card: 'rgba(15, 23, 42, 0.65)'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#070a12] text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950 relative">
+
+  <!-- Ambient Interactive Neural Particles Canvas -->
+  <canvas id="neural-canvas" class="fixed inset-0 pointer-events-none z-0 opacity-40"></canvas>
+
+  <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+  <nav class="sticky top-0 z-50 backdrop-blur-xl bg-[#070a12]/80 border-b border-white/5 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        
+        <!-- Logo / Brand -->
+        <a href="#hero" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-500 to-purple-600 p-[1px] shadow-lg shadow-cyan-500/10 group-hover:shadow-cyan-500/30 transition-all">
+            <div class="w-full h-full bg-[#070a12] rounded-[11px] flex items-center justify-center font-mono font-bold text-cyan-400 text-base">
+              VK
+            </div>
+          </div>
+          <div>
+            <div class="font-bold text-sm tracking-tight text-white flex items-center gap-2">
+              Gurram Vamshi Kumar
+              <span class="status-dot" title="Open to opportunities"></span>
+            </div>
+            <div class="text-[11px] font-mono text-cyan-400/80">AI &amp; Agentic Systems</div>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="hidden md:flex items-center space-x-1 lg:space-x-2 text-sm font-medium">
+          <a href="#about" class="nav-link px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">About</a>
+          <a href="#terminal" class="nav-link px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Architecture</a>
+          <a href="#projects" class="nav-link px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Projects</a>
+          <a href="#publication" class="nav-link px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Research</a>
+          <a href="#experience" class="nav-link px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Experience</a>
+          <a href="#skills" class="nav-link px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Skills</a>
+          <a href="#contact" class="nav-link px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Contact</a>
+        </div>
+
+        <!-- Action CTAs -->
+        <div class="hidden md:flex items-center gap-3">
+          <a href="resume.html" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-200 text-xs font-semibold border border-white/10 hover:border-cyan-500/30 transition-all">
+            <svg class="w-3.5 h-3.5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            Resume
+          </a>
+          <a href="mailto:vamshikumargurram357@gmail.com" class="inline-flex items-center gap-2 px-4 py-1.5 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 text-xs font-bold shadow-md shadow-cyan-500/20 transition-all hover:scale-[1.02]">
+            Let's Talk
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg bg-white/5 text-slate-300 hover:text-white focus:outline-none" aria-label="Toggle Menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#0a0f1d] border-b border-white/10 px-4 pt-2 pb-6 space-y-2">
+      <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5">About</a>
+      <a href="#terminal" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5">Architecture</a>
+      <a href="#projects" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5">Projects</a>
+      <a href="#publication" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5">Research</a>
+      <a href="#experience" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5">Experience</a>
+      <a href="#skills" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5">Skills</a>
+      <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5">Contact</a>
+      <div class="pt-3 border-t border-white/5 flex flex-col gap-2">
+        <a href="resume.html" class="text-center px-4 py-2 rounded-lg bg-white/5 text-slate-200 text-sm font-semibold border border-white/10">View Resume</a>
+        <a href="mailto:vamshikumargurram357@gmail.com" class="text-center px-4 py-2 rounded-lg bg-cyan-500 text-slate-950 text-sm font-bold">Email Vamshi</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <section id="hero" class="relative pt-16 pb-20 md:pt-24 md:pb-28 overflow-hidden z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Status Pill -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 text-xs font-medium mb-6 backdrop-blur-md">
+        <span class="status-dot"></span>
+        <span>Open to Senior AI Engineering &amp; Agentic Roles</span>
+        <span class="text-slate-500">•</span>
+        <span class="text-slate-300">Hyderabad / Remote</span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Text Content -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="space-y-3">
+            <h2 class="text-sm md:text-base font-mono uppercase tracking-widest text-cyan-400 font-semibold">
+              Gurram Vamshi Kumar
+            </h2>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+              Architecting Production <br class="hidden sm:inline">
+              <span class="gradient-text">Agentic AI &amp; Real-Time Vision</span>
+            </h1>
+          </div>
+
+          <p class="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-normal">
+            AI Engineer with <strong class="text-white font-semibold">3.5+ years</strong> designing, deploying, and scaling real-time AI systems. Architect of multi-model agentic pipelines using <span class="text-cyan-300 font-medium">Google ADK, Gemini, LiveKit &amp; Simli</span> (1s TTFT), medical computer vision workstations, and GCP GitOps MLOps. Published researcher in <strong class="text-white font-semibold">Springer Nature</strong>.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-wrap items-center gap-3 pt-2">
+            <a href="#projects" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-sm shadow-lg shadow-cyan-500/25 transition-all hover:scale-[1.02]">
+              Explore Production Projects
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+            </a>
+            
+            <a href="https://doi.org/10.1007/s44230-023-00029-z" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-purple-950/40 hover:bg-purple-900/50 text-purple-300 font-semibold text-sm border border-purple-500/30 transition-all hover:border-purple-400/60">
+              <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+              Springer Paper (99.09% Acc)
+            </a>
+
+            <a href="resume.html" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 font-medium text-sm border border-white/10 transition-colors">
+              <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+              Resume
+            </a>
+          </div>
+
+          <!-- Quick Contact Badges -->
+          <div class="flex flex-wrap items-center gap-4 pt-4 text-xs text-slate-400">
+            <button data-copy="vamshikumargurram357@gmail.com" data-copy-label="Email copied!" class="inline-flex items-center gap-1.5 hover:text-cyan-400 transition-colors cursor-pointer group">
+              <svg class="w-4 h-4 text-slate-500 group-hover:text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              <span>vamshikumargurram357@gmail.com</span>
+              <span class="text-[10px] px-1.5 py-0.5 rounded bg-white/5 border border-white/10">Copy</span>
+            </button>
+            <span class="text-slate-600">•</span>
+            <button data-copy="+917702564211" data-copy-label="Phone number copied!" class="inline-flex items-center gap-1.5 hover:text-cyan-400 transition-colors cursor-pointer group">
+              <svg class="w-4 h-4 text-slate-500 group-hover:text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+              <span>+91 7702564211</span>
+              <span class="text-[10px] px-1.5 py-0.5 rounded bg-white/5 border border-white/10">Copy</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Hero Side Interactive Card / AI Agent Pipeline Status -->
+        <div class="lg:col-span-5">
+          <div class="relative">
+            <!-- Glow backdrop -->
+            <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 opacity-20 blur-xl"></div>
+            
+            <div class="relative glass-panel p-6 border-white/10 space-y-5">
+              <div class="flex items-center justify-between pb-3 border-b border-white/10">
+                <div class="flex items-center gap-2">
+                  <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></div>
+                  <span class="font-mono text-xs text-slate-300 font-semibold">Active Agent Node • Live</span>
+                </div>
+                <span class="text-[11px] font-mono text-cyan-400 px-2 py-0.5 rounded bg-cyan-950/60 border border-cyan-800">GCP Vertex AI</span>
+              </div>
+
+              <!-- Pipeline Flow Visualization -->
+              <div class="space-y-3 font-mono text-xs">
+                <div class="p-3 rounded-lg bg-black/40 border border-white/5 flex items-center justify-between">
+                  <div class="flex items-center gap-2.5">
+                    <span class="text-cyan-400">01</span>
+                    <span class="text-slate-200">Multimodal Input</span>
+                  </div>
+                  <span class="text-slate-400 text-[11px]">Voice / PDF / Images</span>
+                </div>
+
+                <div class="flex justify-center text-slate-500 text-xs">↓</div>
+
+                <div class="p-3 rounded-lg bg-cyan-950/20 border border-cyan-500/30 flex items-center justify-between">
+                  <div class="flex items-center gap-2.5">
+                    <span class="text-cyan-400">02</span>
+                    <span class="text-cyan-200 font-semibold">Google ADK + Gemini</span>
+                  </div>
+                  <span class="text-emerald-400 text-[11px] font-bold">Latency: 1.0s TTFT</span>
+                </div>
+
+                <div class="flex justify-center text-slate-500 text-xs">↓</div>
+
+                <div class="p-3 rounded-lg bg-purple-950/20 border border-purple-500/30 flex items-center justify-between">
+                  <div class="flex items-center gap-2.5">
+                    <span class="text-purple-400">03</span>
+                    <span class="text-purple-200 font-semibold">LiveKit + Simli Video</span>
+                  </div>
+                  <span class="text-purple-300 text-[11px]">Real-Time Avatar</span>
+                </div>
+              </div>
+
+              <!-- Live Stat Micro-Grid -->
+              <div class="grid grid-cols-2 gap-3 pt-2 border-t border-white/10">
+                <div class="bg-white/5 p-3 rounded-lg">
+                  <div class="text-[11px] text-slate-400 font-mono">Vision Accuracy</div>
+                  <div class="text-xl font-bold text-white font-mono mt-0.5">98.7%</div>
+                </div>
+                <div class="bg-white/5 p-3 rounded-lg">
+                  <div class="text-[11px] text-slate-400 font-mono">Inference Time</div>
+                  <div class="text-xl font-bold text-cyan-400 font-mono mt-0.5">1.3s</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Proven Benchmarks / Numbers Banner -->
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-3 sm:gap-4 mt-16 pt-10 border-t border-white/10">
+        
+        <div class="metric-box">
+          <div class="text-2xl sm:text-3xl font-extrabold text-cyan-400 font-mono"
+               data-counter-target="3.5" data-counter-decimals="1" data-counter-suffix="+">3.5+</div>
+          <div class="text-xs text-slate-400 mt-1">Years Production AI</div>
+        </div>
+
+        <div class="metric-box">
+          <div class="text-2xl sm:text-3xl font-extrabold text-white font-mono"
+               data-counter-target="1.0" data-counter-decimals="1" data-counter-prefix="< " data-counter-suffix="s">&lt; 1.0s</div>
+          <div class="text-xs text-slate-400 mt-1">Avatar First-Token Latency</div>
+        </div>
+
+        <div class="metric-box">
+          <div class="text-2xl sm:text-3xl font-extrabold text-purple-400 font-mono"
+               data-counter-target="99.09" data-counter-decimals="2" data-counter-suffix="%">99.09%</div>
+          <div class="text-xs text-slate-400 mt-1">Springer Paper Accuracy</div>
+        </div>
+
+        <div class="metric-box">
+          <div class="text-2xl sm:text-3xl font-extrabold text-emerald-400 font-mono"
+               data-counter-target="700" data-counter-decimals="0" data-counter-suffix="K+">700K+</div>
+          <div class="text-xs text-slate-400 mt-1">Generalized Product SKUs</div>
+        </div>
+
+        <div class="metric-box col-span-2 md:col-span-1">
+          <div class="text-2xl sm:text-3xl font-extrabold text-amber-400 font-mono">0.01 mm</div>
+          <div class="text-xs text-slate-400 mt-1">Medical Vision Precision</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive AI Terminal & Architecture Inspector
+       ========================================================================== -->
+  <section id="terminal" class="py-16 md:py-24 relative z-10 border-t border-white/5 bg-[#090e1a]/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-8">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyan-950/40 border border-cyan-800/40 text-cyan-400 text-xs font-mono font-medium mb-3">
+          SYSTEM CONSOLE • AGENT ARCHITECTURE
+        </div>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Interactive Architecture Explorer
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-2">
+          Click the quick operation triggers below or enter commands directly in the terminal to inspect system benchmarks, agentic multi-model pipelines, and research parameters.
+        </p>
+      </div>
+
+      <!-- Quick Command Chips -->
+      <div class="flex flex-wrap items-center gap-2 mb-4">
+        <span class="text-xs text-slate-400 font-mono mr-1">Quick Run:</span>
+        <button data-term-cmd="aarna" class="filter-btn text-xs font-mono">⚡ aarna (Avatar AI)</button>
+        <button data-term-cmd="vision" class="filter-btn text-xs font-mono">🔬 vision (Medical CV)</button>
+        <button data-term-cmd="paper" class="filter-btn text-xs font-mono">📄 paper (Springer Nature)</button>
+        <button data-term-cmd="stack" class="filter-btn text-xs font-mono">🛠️ stack (Production Tools)</button>
+        <button data-term-cmd="contact" class="filter-btn text-xs font-mono">📬 contact (Get In Touch)</button>
+        <button data-term-cmd="help" class="filter-btn text-xs font-mono">help</button>
+      </div>
+
+      <!-- Terminal Window Component -->
+      <div class="terminal-window">
+        <!-- Terminal Header -->
+        <div class="terminal-header">
+          <div class="flex items-center">
+            <span class="terminal-btn btn-red"></span>
+            <span class="terminal-btn btn-yellow"></span>
+            <span class="terminal-btn btn-green"></span>
+            <span class="text-xs text-slate-400 font-mono ml-2">vamshi@ai-workstation: ~/architecture-inspect</span>
+          </div>
+          <div class="text-[11px] font-mono text-cyan-400/80">bash • node v24.21</div>
+        </div>
+
+        <!-- Terminal Output Area -->
+        <div id="terminal-content" class="terminal-body space-y-2">
+          <div class="text-slate-400 text-xs">
+            Antigravity Engine Initialized. Welcome to Gurram Vamshi Kumar's AI Engineering Console.<br>
+            Type <span class="text-cyan-400 font-semibold cursor-pointer" onclick="document.getElementById('terminal-input').value='help'; document.getElementById('terminal-input').focus();">help</span> or click any quick trigger button above to inspect architecture and benchmarks.
+          </div>
+          <div class="border-l-2 border-cyan-400 pl-3 py-1 my-1">
+            <div class="text-cyan-300 font-bold">⚡ Project: Aarna - AI-Native Conversational Marketplace</div>
+            <div class="text-slate-300 text-xs mt-1"><span class="text-slate-400">Role:</span> Lead AI Engineer @ Mondee Tech</div>
+            <div class="text-slate-300 text-xs mt-1"><span class="text-slate-400">Core Architecture:</span> Multi-model agent pipeline uniting Google ADK, Gemini 1.5, LiveKit (WebRTC audio), and Simli (real-time video avatar generation).</div>
+            <div class="text-slate-300 text-xs mt-1"><span class="text-emerald-400">Benchmark:</span> Achieved <span class="text-white font-bold">1-second First-Token Latency (TTFT)</span> for conversational turn-taking.</div>
+          </div>
+        </div>
+
+        <!-- Terminal Input Bar -->
+        <div class="p-3 bg-slate-950/80 border-t border-white/5 flex items-center gap-2">
+          <span class="text-cyan-400 font-mono text-xs font-bold">vamshi@ai-core:~$</span>
+          <input type="text" id="terminal-input" placeholder="Type a command (aarna, vision, paper, stack, contact, clear)..." 
+                 class="w-full bg-transparent text-white font-mono text-xs focus:outline-none placeholder:text-slate-600" autocomplete="off" spellcheck="false">
+          <span class="text-[10px] text-slate-500 font-mono hidden sm:inline">Press Enter ↵</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Engineering Pillars (Bento Grid)
+       ========================================================================== -->
+  <section id="about" class="py-16 md:py-24 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-950/40 border border-blue-800/40 text-blue-400 text-xs font-mono font-medium mb-3">
+          CORE DOMAINS &amp; EXPERTISE
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Production AI Engineering Pillars
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">
+          From state-of-the-art agentic reasoning systems to edge computer vision running in high-stakes medical facilities.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Pillar 1: Agentic AI -->
+        <div class="glass-panel p-6 glass-panel-glow border-t-2 border-t-cyan-500 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Agentic AI &amp; Avatars</h3>
+            <p class="text-slate-400 text-xs leading-relaxed mb-4">
+              Multi-model autonomous agent orchestration via Google ADK, LangGraph, and Gemini. Real-time voice/video conversational avatars using LiveKit WebRTC and Simli with &lt; 1s latency.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">Google ADK</span>
+            <span class="tech-tag">Gemini 1.5</span>
+            <span class="tech-tag">LiveKit</span>
+            <span class="tech-tag">Simli</span>
+            <span class="tech-tag">LangGraph</span>
+          </div>
+        </div>
+
+        <!-- Pillar 2: Computer Vision -->
+        <div class="glass-panel p-6 glass-panel-glow border-t-2 border-t-purple-500 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Computer Vision &amp; OCR</h3>
+            <p class="text-slate-400 text-xs leading-relaxed mb-4">
+              High-speed YOLO-based segmentation, sub-millimeter 0.01 mm precision robotic QA inspection, motion auto-focus camera pipelines, and unified OCR architectures (DocTR + PaddleOCR + Google OCR).
+            </p>
+          </div>
+          <div class="pt-3 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">YOLOv8</span>
+            <span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">PaddleOCR</span>
+            <span class="tech-tag">DocTR</span>
+            <span class="tech-tag">Robotics</span>
+          </div>
+        </div>
+
+        <!-- Pillar 3: MLOps & Real-time -->
+        <div class="glass-panel p-6 glass-panel-glow border-t-2 border-t-emerald-500 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">MLOps &amp; GitOps</h3>
+            <p class="text-slate-400 text-xs leading-relaxed mb-4">
+              Enterprise scaling across GCP Vertex AI, GKE, and Cloud Run. Zero-downtime OTA system deployments using ArgoCD GitOps, Dockerized microservices, and FastAPI streaming inference.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">Vertex AI</span>
+            <span class="tech-tag">ArgoCD</span>
+            <span class="tech-tag">GKE</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">FastAPI</span>
+          </div>
+        </div>
+
+        <!-- Pillar 4: Enterprise RAG -->
+        <div class="glass-panel p-6 glass-panel-glow border-t-2 border-t-amber-500 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Enterprise RAG &amp; APIs</h3>
+            <p class="text-slate-400 text-xs leading-relaxed mb-4">
+              Dynamic API intelligence layer registering enterprise REST APIs into LLM agent tools. Deep contextual retrieval across ServiceNow, Jira, Salesforce, SharePoint, and Vector DBs.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">Vector DB</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">ServiceNow</span>
+            <span class="tech-tag">Salesforce</span>
+            <span class="tech-tag">AlloyDB</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Featured Production Projects
+       ========================================================================== -->
+  <section id="projects" class="py-16 md:py-24 relative z-10 border-t border-white/5 bg-[#080d19]/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyan-950/40 border border-cyan-800/40 text-cyan-400 text-xs font-mono font-medium mb-3">
+            PRODUCTION CASE STUDIES
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Featured AI Implementations
+          </h2>
+          <p class="text-slate-400 text-sm sm:text-base mt-2">
+            Real products deployed to production with quantified performance and business impact.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap items-center gap-2">
+          <button data-filter="all" class="filter-btn active">All Projects (5)</button>
+          <button data-filter="agentic" class="filter-btn">Agentic AI &amp; LLM</button>
+          <button data-filter="vision" class="filter-btn">Computer Vision</button>
+          <button data-filter="mlops" class="filter-btn">MLOps &amp; Infra</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Project 1: Aarna (Mondee Tech) -->
+        <div class="project-card glass-panel p-6 flex flex-col justify-between" data-category="agentic mlops">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-mono font-semibold bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">
+                Mondee Tech • 2025 – Present
+              </span>
+              <span class="text-emerald-400 text-xs font-mono font-semibold flex items-center gap-1">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span> 1s Latency
+              </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-cyan-400">
+              Aarna: AI Conversational Marketplace Platform
+            </h3>
+
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              Architected a multi-model conversational marketplace platform enabling sellers to onboard businesses in 1 minute and interact with customers through live voice/avatar AI.
+            </p>
+
+            <!-- Key Quantified Bullets -->
+            <ul class="text-xs text-slate-400 space-y-2 mb-6">
+              <li class="flex items-start gap-2">
+                <span class="text-cyan-400 mt-0.5">▹</span>
+                <span><strong>1-Second First-Token Latency:</strong> Google ADK + Gemini + LiveKit WebRTC + Simli video synthesis for conversational avatars.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-cyan-400 mt-0.5">▹</span>
+                <span><strong>1-Minute Seller Onboarding:</strong> Multimodal extraction from videos, images, PDFs, and Excel into structured catalogs.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-cyan-400 mt-0.5">▹</span>
+                <span><strong>AI Experience Discovery:</strong> Personalized itinerary generator with Instagram-style infinite feeds.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-4 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">Google ADK</span>
+            <span class="tech-tag">Gemini Flash</span>
+            <span class="tech-tag">LiveKit</span>
+            <span class="tech-tag">Simli</span>
+            <span class="tech-tag">FastAPI</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Smart Vision Workstation (Techolution) -->
+        <div class="project-card glass-panel p-6 flex flex-col justify-between" data-category="vision mlops">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-mono font-semibold bg-purple-500/10 text-purple-300 border border-purple-500/20">
+                Techolution • Medical Application
+              </span>
+              <span class="text-purple-400 text-xs font-mono font-semibold">
+                98.7% Accuracy
+              </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-white mb-2">
+              Smart Vision Workstation for Medical Extraction
+            </h3>
+
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              Led AI team developing a real-time motion-based autonomous extraction system utilizing computer vision and LLMs via auto-focus hardware.
+            </p>
+
+            <ul class="text-xs text-slate-400 space-y-2 mb-6">
+              <li class="flex items-start gap-2">
+                <span class="text-purple-400 mt-0.5">▹</span>
+                <span><strong>Sub-2s Inference:</strong> Slashed inference time by 80% to 1.3s with YOLO-based segmentation.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-purple-400 mt-0.5">▹</span>
+                <span><strong>Unified OCR Pipeline:</strong> Harmonized Google OCR, PaddleOCR, and DocTR into a consolidated inference engine.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-purple-400 mt-0.5">▹</span>
+                <span><strong>700K+ Product Generalization:</strong> Claude-AI and Gemini Flash for zero-shot semantic extraction with ArgoCD GitOps OTA updates.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-4 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">YOLO Segmentation</span>
+            <span class="tech-tag">DocTR</span>
+            <span class="tech-tag">PaddleOCR</span>
+            <span class="tech-tag">Claude</span>
+            <span class="tech-tag">ArgoCD</span>
+          </div>
+        </div>
+
+        <!-- Project 3: Gemini Enterprise (Techolution) -->
+        <div class="project-card glass-panel p-6 flex flex-col justify-between" data-category="agentic mlops">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-mono font-semibold bg-blue-500/10 text-blue-300 border border-blue-500/20">
+                Techolution • Conversational AI
+              </span>
+              <span class="text-cyan-400 text-xs font-mono font-semibold">
+                -30% Support Latency
+              </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-white mb-2">
+              Gemini Enterprise &amp; Dynamic API Intelligence
+            </h3>
+
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              Enterprise conversational AI agent on Google ADK and Vertex AI, integrating ServiceNow Knowledge Base to automate critical support workflows.
+            </p>
+
+            <ul class="text-xs text-slate-400 space-y-2 mb-6">
+              <li class="flex items-start gap-2">
+                <span class="text-blue-400 mt-0.5">▹</span>
+                <span><strong>Dynamic Tool Intelligence:</strong> Designed RAG semantic retrieval layer to automatically discover and register enterprise APIs into Google ADK tools.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-400 mt-0.5">▹</span>
+                <span><strong>Unified Enterprise Search:</strong> Integrated Jira, Salesforce, and SharePoint for natural language ticket &amp; CRM opportunity orchestration.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-400 mt-0.5">▹</span>
+                <span><strong>Response Acceleration:</strong> Reduced support resolution turnaround time by 30%.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-4 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">Google ADK</span>
+            <span class="tech-tag">Vertex AI</span>
+            <span class="tech-tag">ServiceNow</span>
+            <span class="tech-tag">Salesforce</span>
+            <span class="tech-tag">AlloyDB</span>
+          </div>
+        </div>
+
+        <!-- Project 4: Autonomous Inventory Grab-and-Go -->
+        <div class="project-card glass-panel p-6 flex flex-col justify-between" data-category="vision">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">
+                Techolution • Edge Medical AI
+              </span>
+              <span class="text-emerald-400 text-xs font-mono font-semibold">
+                98.2% Tracking
+              </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-white mb-2">
+              Autonomous Grab-and-Go Inventory Tracking
+            </h3>
+
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              Proof-of-Concept autonomous retail &amp; medical Grab-and-Go inventory management system with sub-2-second telemetry updates.
+            </p>
+
+            <ul class="text-xs text-slate-400 space-y-2 mb-6">
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-400 mt-0.5">▹</span>
+                <span><strong>98.2% Tracking Accuracy:</strong> Custom OpenCV and multi-stage tracking pipelines.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-400 mt-0.5">▹</span>
+                <span><strong>Sub-2s UI Telemetry:</strong> Object-independent tracking and OCR pipelines updating monitoring dashboards in under 2 seconds.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-400 mt-0.5">▹</span>
+                <span><strong>Few-Shot Product Onboarding:</strong> Automated synthetic data augmentation and few-shot classification pipeline.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-4 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">Object Tracking</span>
+            <span class="tech-tag">Few-Shot Learning</span>
+            <span class="tech-tag">Data Augmentation</span>
+          </div>
+        </div>
+
+        <!-- Project 5: Screw Defect Detection -->
+        <div class="project-card glass-panel p-6 flex flex-col justify-between" data-category="vision">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-mono font-semibold bg-amber-500/10 text-amber-300 border border-amber-500/20">
+                Techolution • Healthcare QA
+              </span>
+              <span class="text-amber-400 text-xs font-mono font-semibold">
+                0.01 mm Precision
+              </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-white mb-2">
+              Orthopedic Bone Screw Defect Detection System
+            </h3>
+
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              AI-powered automated quality inspection for implantable orthopedic bone screws, combining sub-millimeter computer vision and robotic positioning.
+            </p>
+
+            <ul class="text-xs text-slate-400 space-y-2 mb-6">
+              <li class="flex items-start gap-2">
+                <span class="text-amber-400 mt-0.5">▹</span>
+                <span><strong>0.01 mm Precision:</strong> Detected micro-defects on surgical implants with 95%+ precision.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-amber-400 mt-0.5">▹</span>
+                <span><strong>-50% QA Effort:</strong> Automated high-precision manual QA inspection routines, minimizing human error.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-amber-400 mt-0.5">▹</span>
+                <span><strong>Robotic Positioning Sync:</strong> Unified vision inference with multi-axis mechanical positioning.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-4 border-t border-white/5 flex flex-wrap gap-1.5">
+            <span class="tech-tag">Computer Vision</span>
+            <span class="tech-tag">Robotic Positioning</span>
+            <span class="tech-tag">Quality Assurance</span>
+            <span class="tech-tag">Healthcare</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Research Publication Spotlight
+       ========================================================================== -->
+  <section id="publication" class="py-16 md:py-24 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="relative glass-panel p-8 sm:p-12 border-purple-500/30 overflow-hidden">
+        <!-- Ambient radial glow -->
+        <div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-purple-600/15 blur-3xl pointer-events-none"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <div class="lg:col-span-8 space-y-5">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-purple-950/60 border border-purple-700/50 text-purple-300 text-xs font-mono font-medium">
+              <span>PEER-REVIEWED PUBLICATION</span>
+              <span>•</span>
+              <span class="text-white font-bold">SPRINGER NATURE</span>
+            </div>
+
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight leading-snug">
+              String Kernel-Based Techniques for Native Language Identification
+            </h2>
+
+            <div class="text-xs font-mono text-slate-400">
+              DOI: <a href="https://doi.org/10.1007/s44230-023-00029-z" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:underline">10.1007/s44230-023-00029-z</a>
+            </div>
+
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Proposed novel string kernel representations (spectrum, presence, bits) formulated for high-performance Native Language Identification. Coupled with gradient-boosted trees (XGBoost), this approach outperformed complex deep learning architectures in accuracy while dramatically slashing compute overhead. Applications extend into forensic linguistics, authorship attribution, and linguistic profiling.
+            </p>
+
+            <!-- Metrics Pills -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div class="p-4 rounded-xl bg-purple-950/20 border border-purple-500/20">
+                <div class="text-2xl font-mono font-bold text-white">99.09%</div>
+                <div class="text-xs text-purple-300 mt-1">Classification Accuracy (Outperformed Deep Neural Nets)</div>
+              </div>
+
+              <div class="p-4 rounded-xl bg-purple-950/20 border border-purple-500/20">
+                <div class="text-2xl font-mono font-bold text-purple-400">95%</div>
+                <div class="text-xs text-purple-300 mt-1">Reduction in Training Time &amp; Compute Overhead</div>
+              </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex flex-wrap items-center gap-3 pt-4">
+              <a href="https://doi.org/10.1007/s44230-023-00029-z" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-semibold text-xs transition-all shadow-md shadow-purple-600/20">
+                <span>View Full Paper on Springer Nature</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
+
+              <button id="copy-bibtex-btn" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 text-xs font-semibold border border-white/10 transition-colors">
+                <svg class="w-3.5 h-3.5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                Copy BibTeX Citation
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Publication Visual Graphic -->
+          <div class="lg:col-span-4 flex justify-center">
+            <div class="w-full max-w-sm rounded-xl p-6 bg-slate-950/70 border border-purple-500/20 font-mono text-xs text-slate-400 space-y-3">
+              <div class="flex items-center justify-between text-slate-500 pb-2 border-b border-white/10 text-[11px]">
+                <span>KERNEL EVALUATION</span>
+                <span class="text-emerald-400">SOTA</span>
+              </div>
+              <div>
+                <div class="flex justify-between text-slate-300">
+                  <span>XGBoost + String Kernel</span>
+                  <span class="text-white font-bold">99.09%</span>
+                </div>
+                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-1.5 overflow-hidden">
+                  <div class="bg-gradient-to-r from-cyan-400 to-purple-500 h-full w-[99%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-slate-400">
+                  <span>Deep Neural Models</span>
+                  <span class="text-slate-300">92.40%</span>
+                </div>
+                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-1.5 overflow-hidden">
+                  <div class="bg-slate-600 h-full w-[92%]"></div>
+                </div>
+              </div>
+
+              <div class="pt-3 border-t border-white/5 text-[11px] text-slate-500 leading-normal">
+                Kernel Methods: Spectrum, Presence, Bit Kernels. Applications in Forensic Linguistics.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Work Experience Timeline
+       ========================================================================== -->
+  <section id="experience" class="py-16 md:py-24 relative z-10 border-t border-white/5 bg-[#080d19]/40">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyan-950/40 border border-cyan-800/40 text-cyan-400 text-xs font-mono font-medium mb-3">
+          CAREER TRAJECTORY
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Work Experience
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-2">
+          3.5+ years building and deploying scalable AI pipelines across top enterprise and high-growth platforms.
+        </p>
+      </div>
+
+      <div class="space-y-12">
+
+        <!-- Role 1: Mondee Tech -->
+        <div class="timeline-item">
+          <div class="glass-panel p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-white">AI ML Engineer</h3>
+                <div class="text-cyan-400 font-medium text-sm">Mondee Tech Pvt Ltd</div>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-800 text-cyan-300 text-xs font-mono self-start sm:self-auto">
+                Dec 2025 – Present
+              </span>
+            </div>
+
+            <div class="text-xs font-mono text-purple-300 mb-4 font-semibold">
+              Platform: Aarna (A Digital Market Place)
+            </div>
+
+            <ul class="text-xs sm:text-sm text-slate-300 space-y-3">
+              <li class="flex items-start gap-2">
+                <span class="text-cyan-400 mt-1">▸</span>
+                <span>Led AI engineering team in building an AI-native conversational marketplace platform, enabling sellers to onboard businesses, manage offerings, and interact with customers through real-time voice/avatar AI.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-cyan-400 mt-1">▸</span>
+                <span>Architected a multi-model agentic platform using <strong class="text-white">Google ADK, Gemini, LiveKit, and Simli</strong>, achieving <strong class="text-white">1-second first-token latency</strong> for real-time conversational avatar interactions.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-cyan-400 mt-1">▸</span>
+                <span>Built 1-minute conversational business onboarding, enabling sellers to add products/services through images, videos, PDFs, documents, and Excel files, with AI-driven extraction and structured catalog creation.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-cyan-400 mt-1">▸</span>
+                <span>Developed a separate AI-powered experiences platform with conversational avatar assistance (TTFT 1 second), personalized itinerary generation, experience recommendations, location/activity-aware discovery, and Instagram-style infinite-scroll feeds for trips, events, and activities.</span>
+              </li>
+            </ul>
+
+            <div class="pt-5 mt-5 border-t border-white/5 flex flex-wrap gap-1.5">
+              <span class="tech-tag">Google ADK</span>
+              <span class="tech-tag">Gemini 1.5</span>
+              <span class="tech-tag">LiveKit</span>
+              <span class="tech-tag">Simli</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Multimodal Ingestion</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2: Techolution -->
+        <div class="timeline-item">
+          <div class="glass-panel p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-white">AI Engineer</h3>
+                <div class="text-blue-400 font-medium text-sm">Techolution</div>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-blue-950/60 border border-blue-800 text-blue-300 text-xs font-mono self-start sm:self-auto">
+                May 2023 – Dec 2025
+              </span>
+            </div>
+
+            <div class="space-y-5 text-xs sm:text-sm text-slate-300 mt-4">
+              <!-- Sub-project 1 -->
+              <div>
+                <div class="font-bold text-white text-xs font-mono text-cyan-300 mb-1">
+                  1. Gemini Enterprise (Google ADK, Conversational AI)
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                  Built and deployed enterprise conversational AI on Google ADK and Vertex AI, integrating ServiceNow Knowledge Base to automate workflows and reduce response time by 30%. Integrated Jira, Salesforce, and SharePoint for contextual search and natural language ticket handling. Designed an API intelligence layer with dynamic tool registration.
+                </p>
+              </div>
+
+              <!-- Sub-project 2 -->
+              <div>
+                <div class="font-bold text-white text-xs font-mono text-purple-300 mb-1">
+                  2. Smart Vision Workstation (Medical Applications)
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                  Led AI team developing motion-based autonomous extraction using CV &amp; LLMs via auto-focus hardware. Achieved 98.7% text recognition accuracy with inference times down to 1.3 seconds. Designed system architecture with ArgoCD OTA updates across 5+ production units. Unified Google OCR, PaddleOCR, and DocTR with YOLO segmentation, scaling across 700K+ product types with Claude-AI and Gemini Flash.
+                </p>
+              </div>
+
+              <!-- Sub-project 3 -->
+              <div>
+                <div class="font-bold text-white text-xs font-mono text-emerald-300 mb-1">
+                  3. Autonomous Inventory Management &amp; Screw Defect Detection
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">
+                  Built Grab-and-Go POC with 98.2% tracking accuracy and &lt; 2s telemetry updates. Developed bone screw inspection system achieving 0.01 mm precision and 95%+ defect accuracy, halving QA effort.
+                </p>
+              </div>
+            </div>
+
+            <div class="pt-5 mt-5 border-t border-white/5 flex flex-wrap gap-1.5">
+              <span class="tech-tag">Vertex AI</span>
+              <span class="tech-tag">YOLOv8</span>
+              <span class="tech-tag">ArgoCD</span>
+              <span class="tech-tag">Claude</span>
+              <span class="tech-tag">OpenCV</span>
+              <span class="tech-tag">DocTR</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">GKE</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Technical Skills Matrix
+       ========================================================================== -->
+  <section id="skills" class="py-16 md:py-24 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-indigo-950/40 border border-indigo-800/40 text-indigo-400 text-xs font-mono font-medium mb-3">
+          TECH STACK &amp; CAPABILITIES
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Comprehensive Technical Skills
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-2">
+          End-to-end fluency spanning AI research, agentic architectures, computer vision, and cloud MLOps.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Category 1: Languages & Core -->
+        <div class="glass-panel p-6">
+          <div class="flex items-center gap-2 text-cyan-400 font-mono text-sm font-bold mb-4">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+            Languages
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="tech-tag">Python (Advanced)</span>
+            <span class="tech-tag">C++</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Bash / Shell</span>
+          </div>
+        </div>
+
+        <!-- Category 2: LLMs & Agents -->
+        <div class="glass-panel p-6">
+          <div class="flex items-center gap-2 text-purple-400 font-mono text-sm font-bold mb-4">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            LLMs &amp; Agents
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="tech-tag">Google ADK</span>
+            <span class="tech-tag">Gemini 1.5</span>
+            <span class="tech-tag">LiveKit</span>
+            <span class="tech-tag">Simli</span>
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">LangGraph</span>
+            <span class="tech-tag">Claude-AI</span>
+            <span class="tech-tag">Llama-3</span>
+            <span class="tech-tag">Ollama</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">Vector DBs</span>
+            <span class="tech-tag">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <!-- Category 3: AI & Computer Vision -->
+        <div class="glass-panel p-6">
+          <div class="flex items-center gap-2 text-emerald-400 font-mono text-sm font-bold mb-4">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            AI / ML &amp; Vision
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="tech-tag">PyTorch</span>
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">YOLO Segmentation</span>
+            <span class="tech-tag">PaddleOCR</span>
+            <span class="tech-tag">DocTR</span>
+            <span class="tech-tag">Google OCR</span>
+            <span class="tech-tag">HuggingFace</span>
+            <span class="tech-tag">XGBoost</span>
+          </div>
+        </div>
+
+        <!-- Category 4: Cloud & MLOps -->
+        <div class="glass-panel p-6">
+          <div class="flex items-center gap-2 text-amber-400 font-mono text-sm font-bold mb-4">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+            Cloud, MLOps &amp; Data
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="tech-tag">GCP Vertex AI</span>
+            <span class="tech-tag">Cloud Run</span>
+            <span class="tech-tag">GKE</span>
+            <span class="tech-tag">AWS SageMaker</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Kubernetes</span>
+            <span class="tech-tag">ArgoCD</span>
+            <span class="tech-tag">CI/CD</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">AlloyDB / SQL</span>
+            <span class="tech-tag">Git</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Education Section
+       ========================================================================== -->
+  <section id="education" class="py-16 md:py-20 relative z-10 border-t border-white/5 bg-[#080d19]/40">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyan-950/40 border border-cyan-800/40 text-cyan-400 text-xs font-mono font-medium mb-3">
+          ACADEMIC FOUNDATION
+        </div>
+        <h2 class="text-3xl font-extrabold text-white tracking-tight">
+          Education
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <div class="glass-panel p-6 border-l-4 border-l-cyan-500">
+          <div class="text-xs font-mono text-cyan-400 mb-1">Oct 2021 – Jul 2023</div>
+          <h3 class="text-lg font-bold text-white">MSc. in Machine Intelligence</h3>
+          <div class="text-slate-300 text-sm font-medium mt-1">Digital University Kerala</div>
+          <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            Specialized in advanced machine learning, neural networks, computer vision, and computational linguistics. Produced Springer Nature published research on string kernels.
+          </p>
+        </div>
+
+        <div class="glass-panel p-6 border-l-4 border-l-purple-500">
+          <div class="text-xs font-mono text-purple-400 mb-1">Jul 2018 – Aug 2021</div>
+          <h3 class="text-lg font-bold text-white">BSc. in Mathematics, Computer Science &amp; Hardware</h3>
+          <div class="text-slate-300 text-sm font-medium mt-1">Nizam College</div>
+          <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            Rigorous core foundation in discrete mathematics, algorithms, computational hardware architectures, and low-level system design.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact & Collaboration
+       ========================================================================== -->
+  <section id="contact" class="py-16 md:py-24 relative z-10 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Contact Left Column -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyan-950/40 border border-cyan-800/40 text-cyan-400 text-xs font-mono font-medium">
+            GET IN TOUCH
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Let's Build the Next Generation of AI Systems
+          </h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            I am currently open to <strong class="text-white">Senior AI Engineering, Agentic AI, and Computer Vision Roles</strong> (Full-time / High-Impact Initiatives). Whether you have an open position or want to discuss conversational avatars and vision architectures, feel free to reach out.
+          </p>
+
+          <!-- Contact Channel Cards -->
+          <div class="space-y-3 pt-2">
+            <!-- Email -->
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between group hover:border-cyan-500/40 transition-colors">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+                <div>
+                  <div class="text-[11px] text-slate-400 font-mono">Email Address</div>
+                  <a href="mailto:vamshikumargurram357@gmail.com" class="text-sm font-semibold text-white hover:text-cyan-400 transition-colors">vamshikumargurram357@gmail.com</a>
+                </div>
+              </div>
+              <button data-copy="vamshikumargurram357@gmail.com" data-copy-label="Email copied to clipboard!" class="text-xs px-2.5 py-1 rounded bg-white/5 hover:bg-cyan-500 hover:text-slate-950 text-slate-300 font-mono transition-colors">
+                Copy
+              </button>
+            </div>
+
+            <!-- Phone -->
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between group hover:border-cyan-500/40 transition-colors">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                </div>
+                <div>
+                  <div class="text-[11px] text-slate-400 font-mono">Phone / WhatsApp</div>
+                  <a href="tel:+917702564211" class="text-sm font-semibold text-white hover:text-emerald-400 transition-colors">+91 7702564211</a>
+                </div>
+              </div>
+              <button data-copy="+917702564211" data-copy-label="Phone number copied!" class="text-xs px-2.5 py-1 rounded bg-white/5 hover:bg-emerald-500 hover:text-slate-950 text-slate-300 font-mono transition-colors">
+                Copy
+              </button>
+            </div>
+
+            <!-- Location -->
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-400">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              </div>
+              <div>
+                <div class="text-[11px] text-slate-400 font-mono">Location</div>
+                <div class="text-sm font-semibold text-white">Hyderabad, India (Open to Relocation &amp; Remote)</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Contact Form Right Column -->
+        <div class="lg:col-span-7">
+          <div class="glass-panel p-6 sm:p-8">
+            <h3 class="text-lg font-bold text-white mb-2">Send a Direct Message</h3>
+            <p class="text-slate-400 text-xs mb-6">Fill in the details below to generate an immediate direct email to Vamshi.</p>
+
+            <form id="contact-form" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="cf-name" class="block text-xs font-mono text-slate-400 mb-1">Your Name</label>
+                  <input type="text" id="cf-name" required placeholder="Dr. Alan Turing" 
+                         class="w-full px-3.5 py-2.5 rounded-lg bg-black/40 border border-white/10 text-white text-sm focus:outline-none focus:border-cyan-500 transition-colors">
+                </div>
+                <div>
+                  <label for="cf-email" class="block text-xs font-mono text-slate-400 mb-1">Your Email</label>
+                  <input type="email" id="cf-email" required placeholder="turing@institute.org" 
+                         class="w-full px-3.5 py-2.5 rounded-lg bg-black/40 border border-white/10 text-white text-sm focus:outline-none focus:border-cyan-500 transition-colors">
+                </div>
+              </div>
+
+              <div>
+                <label for="cf-subject" class="block text-xs font-mono text-slate-400 mb-1">Subject / Opportunity</label>
+                <input type="text" id="cf-subject" required value="AI Engineering Opportunity / Collaboration" 
+                       class="w-full px-3.5 py-2.5 rounded-lg bg-black/40 border border-white/10 text-white text-sm focus:outline-none focus:border-cyan-500 transition-colors">
+              </div>
+
+              <div>
+                <label for="cf-message" class="block text-xs font-mono text-slate-400 mb-1">Message</label>
+                <textarea id="cf-message" rows="4" required placeholder="Hi Vamshi, we loved your work on Google ADK avatars and medical vision..." 
+                          class="w-full px-3.5 py-2.5 rounded-lg bg-black/40 border border-white/10 text-white text-sm focus:outline-none focus:border-cyan-500 transition-colors"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-3 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-sm shadow-lg shadow-cyan-500/20 transition-all hover:scale-[1.01]">
+                Send Message to Vamshi
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="py-8 border-t border-white/5 bg-[#060910] text-xs text-slate-500 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      
+      <div class="flex items-center gap-2">
+        <span class="font-mono text-slate-400 font-semibold">Gurram Vamshi Kumar</span>
+        <span>•</span>
+        <span>AI Engineer &amp; Agentic Systems Architect</span>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <a href="resume.html" class="hover:text-cyan-400 transition-colors">Resume</a>
+        <a href="https://doi.org/10.1007/s44230-023-00029-z" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition-colors">Springer Nature DOI</a>
+        <a href="#hero" class="hover:text-cyan-400 transition-colors">Back to Top ↑</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+  <!-- Ambient Particles -->
+  <script src="assets/js/particles.js"></script>
+</body>
+</html>
